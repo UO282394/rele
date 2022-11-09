@@ -1,0 +1,12 @@
+/*Especificidad: 001*/
+section{
+    border-style: solid;
+    margin-bottom: 13ex;
+    border-color: blue;
+    border-width: 0,8em;
+}
+/*Especificidad: 001*/
+img{
+    max-width: 20%;
+    height: auto;
+}

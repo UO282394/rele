@@ -1,0 +1,21 @@
+/*Iván Vega Prieto UO282394*/
+/*Especificidad: 001*/
+body{
+    display : grid;
+    grid-template-areas: 
+    '. cabecera .'
+    'contenido contenido contenido'
+    ;
+   
+   
+}
+/*Especificidad: 001*/
+header{
+grid-area: cabecera;
+
+}
+/*Especificidad: 001*/
+main{
+    grid-area:contenido
+}
+
